@@ -66,9 +66,9 @@ with form:
         with st.spinner('Brewing a hilarious joke...'):
             # Detailed prompt for more specific joke generation
             PROMPT = f"""
-            Generate a {joke_style} joke about {selected_theme}. 
-            The joke should be approximately complexity level {joke_complexity} out of 5. 
-            Ensure the joke is clever and actually funny and also return it in dutch.
+            Genereer een mop in deze stijl {joke_style} over dit thema {selected_theme}. 
+            de grap zou moeten zijn in op dit level {joke_complexity} uit een schaal van 5.
+            Maak de mop in het nederlands zodat we de woordmopjes begrijpen.
             """
             
             response = chatbot_response(PROMPT)
